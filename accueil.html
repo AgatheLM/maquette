@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <style type="text/css">
+
+      .inline-form input {
+        display: inline-block;
+        width: 100px;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">FUL4</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"> <a href="#">Administration</a> </li>
+          <li> <a href="#">Coltrane</a> </li>
+          <li class="disabled"> <a href="#">Introduire une unité</a> </li>
+        </ul>
+        <form class="navbar-form navbar-right inline-form">
+          <div class="form-group">
+            <input type="search" class="input-sm form-control" placeholder="siren/siret">
+            <button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Rechercher</button>
+          </div>
+        </form>
+      </div>
+    </nav>
+
+
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-sm-2 sidenav text-left">
+              <ul class="nav nav-sidebar">
+                <li class="active"><a>Général</a></li>
+                <li><a>Adresses</a></li>
+                <li><a>Activités</a></li>
+                <li><a>Enquêtes</a></li>
+                <li><a>Etablissements</a></li>
+                <li><a>Unité Complexe</a></li>
+                <li><a>Bloc Note</a></li>
+              </ul>
+        </div>
+
+        <section class="col-sm-10">
+
+          <div class="col-sm-12">
+            <div class="panel panel-info">
+              <table class="table table-striped table-condensed">
+                <div class="panel-heading">
+                  <h3 style="font-weight:bold" class="panel-title">123 456 789 - Burger et Compagnie</h3>
+                </div>
+                <tbody>
+                  <tr>
+                    <td width=50%><span class="text-primary">Cible : </span>-</td>
+                    <td><span class="text-primary">Type d'unité : </span>Entreprise</td>
+                  </tr>
+                  <tr>
+                    <td><span class="text-primary">Effectif : </span>0</td>
+                    <td><span class="text-primary">CA : </span>0</td>
+                  </tr>
+                  <tr>
+                    <td><span class="text-primary">Siret siège : </span>123 456 789 000 01
+                      <span class="glyphicon glyphicon-edit data-toggle="tooltip" title="Mettre à jour""></span>
+                    </td>
+                    <td><span class="text-primary">Adresse du siège : </span>5 rue de Strasbourg 75015 Paris</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+
+          <div class="col-sm-6">
+            <div class="panel panel-primary">
+              <table class="table table-striped table-condensed">
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <span class="glyphicon glyphicon-plus-sign pull-right"></span>
+                    Etat : cessé juridiquement
+                    <span class="glyphicon glyphicon-edit"></span>
+                  </h3>
+                </div>
+                <tbody>
+                  <tr>
+                    <td>Date de création :</td>
+                    <td class="text-right">
+                      <span class="glyphicon glyphicon-edit"></span>
+                      01/01/1958</td>
+                  </tr>
+                  <tr>
+                    <td>Date de cessation :</td>
+                    <td class="text-right">01/12/2016</td>
+                  </tr>
+                  <tr>
+                    <td>Date de cessation juridique :</td>
+                    <td class="text-right">01/12/2016</td>
+                  </tr>
+                  <tr>
+                    <td>Catégorie Juridique</td>
+                    <td class="text-right">5710-SAS</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="panel panel-primary">
+              <table class="table table-striped table-condensed">
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <span class="glyphicon glyphicon-plus-sign pull-right"></span>
+                    APE : 1623Z
+                    <span class="glyphicon glyphicon-edit"></span>
+                  </h3>
+                </div>
+                <tbody>
+                  <tr>
+                    <td>Effectif salarié au 31/12</td>
+                    <td class="text-right">
+                      <span class="glyphicon glyphicon-edit"></span>
+                      0</td>
+                  </tr>
+                  <tr>
+                    <td>Effectif employé moyen</td>
+                    <td class="text-right">
+                      <span class="glyphicon glyphicon-edit"></span>
+                      0</td>
+                  </tr>
+                  <tr>
+                    <td>Contribution à l'effectif sectoriel (EAP 2016)</td>
+                    <td class="text-right">< à 1%</td>
+                  </tr>
+                  <tr>
+                    <td>CA (2016)</td>
+                    <td class="text-right">67 811 k€</td>
+                  </tr>
+                  <tr>
+                    <td>Contribution au CA sectoriel (EAP 2016)</td>
+                    <td class="text-right">2,3%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="panel panel-primary">
+              <table class="table table-striped table-condensed">
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <span class="glyphicon glyphicon-plus-sign pull-right"></span>
+                    Sous-traitance
+                    <span class="glyphicon glyphicon-edit"></span>
+                  </h3>
+                </div>
+                <tbody>
+                  <tr>
+                    <td>Donneur d'ordre</td>
+                    <td class="text-right">oui</td>
+                  </tr>
+                  <tr>
+                    <td>Preneur d'ordre</td>
+                    <td class="text-right">non</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+
+          </div>
+
+
+
+
+          <div class="col-sm-6">
+
+
+            <div class="panel panel-primary">
+              <table class="table table-striped table-condensed">
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <span class="glyphicon glyphicon-plus-sign pull-right"></span>
+                    Informations Ocsane</h3>
+                </div>
+                <tbody>
+                  <tr>
+                    <td>Service enquêteur</td>
+                    <td class="text-right">-</td>
+                  </tr>
+                  <tr>
+                    <td>APE</td>
+                    <td class="text-right">-</td>
+                  </tr>
+                  <tr>
+                    <td>Effectif salarié au 31/12</td>
+                    <td class="text-right">0</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="panel panel-primary">
+              <table class="table table-striped table-condensed">
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <span class="glyphicon glyphicon-plus-sign pull-right"></span>
+                    Informations Sirus</h3>
+                </div>
+                <tbody>
+                  <tr>
+                    <td>APE</td>
+                    <td class="text-right">-</td>
+                  </tr>
+                  <tr>
+                    <td>Effectif salarié au 31/12</td>
+                    <td class="text-right">0</td>
+                  </tr>
+                  <tr>
+                    <td>Nombre d'établissements actifs</td>
+                    <td class="text-right">0</td>
+                  </tr>
+                  <tr>
+                    <td>Est une entreprise (au sens Sirus)</td>
+                    <td class="text-right">oui</td>
+                  </tr>
+                  <tr>
+                    <td>Catégorie d'entreprise</td>
+                    <td class="text-right">ETI</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="panel panel-primary">
+              <table class="table table-striped table-condensed">
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <span class="glyphicon glyphicon-plus-sign pull-right"></span>
+                    Autres informations</h3>
+                </div>
+              </table>
+            </div>
+
+            <div class="panel panel-primary">
+              <table class="table table-striped table-condensed">
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <span class="glyphicon glyphicon-plus-sign pull-right"></span>
+                    Dernière mise à jour : 10/01/2018</h3>
+                </div>
+              </table>
+            </div>
+
+
+<!--            <div class="panel panel-info">
+              <table class="table table-striped table-condensed">
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <span class="glyphicon glyphicon-remove pull-right"></span>
+                    Informations Etat</h3>
+                </div>
+                <tbody>
+                  <tr>
+                    <td>Date de création :</td>
+                    <td>01/01/1958</td>
+                  </tr>
+                  <tr>
+                    <td>Date de cessation :</td>
+                    <td>01/12/2016</td>
+                  </tr>
+                  <tr>
+                    <td>Date de cessation juridique :</td>
+                    <td>01/12/2016</td>
+                  </tr>
+                  <tr>
+                    <td>Catégorie Juridique</td>
+                    <td>5710-SAS</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+-->
+
+          </div>
+
+
+
+
+
+        </section>
+
+    </div>
+
+    <footer class="container-fluid text-center">
+      <p class="text-muted">version 0.11 - Base de production (pifus01)</p>
+    </footer>
+
+      </div>
+  </body>
+</html>

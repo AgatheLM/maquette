@@ -1,0 +1,26 @@
+.navbar-brand-img {
+    float: left;
+    height: 50px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+
+.navbar-user {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+
+.navbar-side {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
