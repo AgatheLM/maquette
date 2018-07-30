@@ -1,12 +1,13 @@
 .btn-toucan {
     background-color : #f05b26;
-    color: #fff;
-    border-color : #c54b1e
+    color: white;
+    border-color : #c54b1e;
+    font-size: 18px;
 
 
 }
 
 .btn-toucan:hover{
     background-color:#db5321;
-    color: #fff;
+    color : black;
 }

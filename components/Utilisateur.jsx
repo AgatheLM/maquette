@@ -13,7 +13,7 @@ class Utilisateur extends Component {
     return (
 
       <tr>
-        <td className="text-center">{this.props.suppr && <input type="checkbox" id={this.props.id} onChange={e =>this.cAcChange(e)} />}</td>
+        <td className="text-center">{this.props.suppr && <input type="checkbox" title="supprimer utilisateur"  id={this.props.id} onChange={e =>this.cAcChange(e)} />}</td>
         <td className="text-center">{this.props.id}</td>
         <td>{this.props.nom}</td>
         <td>{this.props.prenom}</td>

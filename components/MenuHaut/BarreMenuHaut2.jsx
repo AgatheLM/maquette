@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 
 /* Site de documentation de la nav bar : http://www.conseil-webmaster.com/formation/bootstrap/menu-navigation-bootstrap.php
 https://www.w3schools.com/bootstrap/bootstrap_navbar.asp*/
-class BarreMenuHaut extends Component{
+class BarreMenuHaut2 extends Component{
 
     constructor () {
         super()
@@ -17,14 +17,16 @@ class BarreMenuHaut extends Component{
         return(
             <Router>
                 <div>
-                    <nav className="navbar navbar-default navbar-margin ">
+                    <nav aria-label="naviguation profils" className="navbar navbar-default navbar-margin ">
                         <div className="container-fluid">
                             <div className="navbar-header    ">
-                                <Link to={'/'} className="navbar-brand-img" > <img  id="logoToucan"  src="./img/logoToucan2.svg"  width="25px" /></Link>
+                                <Link to={'/'} className="navbar-brand-img" > 
+                                    <img  id="logoToucan"  src="./img/logoToucan2.svg"  width="25px" alt="Logo Toucan retour accueil"/>
+                                </Link>
                             </div>
                             <div className="nav navbar-nav">        
-                                <ul className="nav navbar-nav">          
-                                    <li className="active"><Link to={'/'} onClick={e => this.handleClick("accueil")}> Accueil</Link></li>                  
+                                <ul className="nav navbar-nav">         
+                                  
                                     <li><a href="#" onClick={e => this.handleClick("consultant")}>Consultant</a></li>
                                     <li><a href="#" onClick={e => this.handleClick("producteur")}>Producteur</a></li>
                                     <li><a href="#" onClick={e => this.handleClick("responsable")}>Responsable</a></li>
@@ -55,4 +57,4 @@ class BarreMenuHaut extends Component{
 
 }
 
-export default BarreMenuHaut;
+export default BarreMenuHaut2;

@@ -17,7 +17,25 @@
     padding-left: 15px;
 }
 
+a {
+    color: #686868;
+    text-decoration: none;
+    background-color: transparent;
+  }
 
+a:hover{
+    text-decoration: none; 
+}
+
+a:focus{
+    text-decoration: none; 
+}
+
+
+a:focus, a:hover {
+    color: #494949;
+    background-color: transparent;
+}
 .navbar-side {
     padding-top: 10px;
     padding-right: 10px;
@@ -29,15 +47,14 @@
     padding-right: 10px;
     padding-left: 20px;
     padding-top: 5px;
-    padding-bottom: 5px;
-    text-decoration: none;
-
-    
+    padding-bottom: 5px;   
 }
 
-.couleurtexte{
-    color:palevioletred;
+.bordure-gauche{
+    border-right : 1px solid #e7e7e7;;
 }
+
+
 
 
 .navbar-margin{
@@ -56,6 +73,17 @@
     width: 100%;
 }
 
+li.active{
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+    background-color: #e7e7e7;
+    width: 200px;
+    text-decoration: none;
+}
+
+
 #sidebar {
     width: 200px;
     position: fixed;
@@ -66,4 +94,20 @@
     transition: all 0.3s;
     background-color: #f8f8f8;
     border-color: #e7e7e7;
+}
+
+.menu-niv-1{
+    padding-left: 15px;
+    padding-right: 0px;
+    padding-top: 10px;  
+
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #686868;
+}
+
+.glyphicon {
+    color : #f05b26;
+    margin-left : 3px
 }

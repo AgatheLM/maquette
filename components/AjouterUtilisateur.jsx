@@ -38,6 +38,7 @@ class AjouterUtilisateur extends Component {
     
       return (
         <div className="col-sm-4 contenu-page">
+        <h1>Ajouter un utilisateur</h1>
           <form>
             <div className="form-group row">
               <label className="col-sm-2 col-form-label" htmlFor="inputNom" >Nom</label>

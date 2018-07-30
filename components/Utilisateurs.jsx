@@ -28,6 +28,7 @@ import { supprimerUtilisateur } from "../actions/supprimerUtilisateur";
 			 if(myUsers.length>0){
 				return (
 					<div className="col-md-4 contenu-page">
+					<h1>Liste des utilisateurs</h1>
 						<table className=" table table-hover">
 							
 							<thead>
@@ -44,7 +45,7 @@ import { supprimerUtilisateur } from "../actions/supprimerUtilisateur";
 							</tbody>
 						</table>
 
-						<button className="btn btn-toucan" onClick={e => this.handleClick(e)}>Supprimer utilisateur</button>  
+						<button className="btn btn-toucan" onClick={e => this.handleClick(e)}>Supprimer</button>  
 					</div>
 				)
 			 }
