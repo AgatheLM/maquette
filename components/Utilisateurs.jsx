@@ -27,7 +27,7 @@ import { supprimerUtilisateur } from "../actions/supprimerUtilisateur";
 				const erreur = this.props.utilisateursReducer.erreur
 			 if(myUsers.length>0){
 				return (
-					<div className="col-md-4">
+					<div className="col-md-4 contenu-page">
 						<table className=" table table-hover">
 							
 							<thead>
@@ -44,7 +44,7 @@ import { supprimerUtilisateur } from "../actions/supprimerUtilisateur";
 							</tbody>
 						</table>
 
-						<button className="btn btn-primary" onClick={e => this.handleClick(e)}>Supprimer utilisateur</button>  
+						<button className="btn btn-toucan" onClick={e => this.handleClick(e)}>Supprimer utilisateur</button>  
 					</div>
 				)
 			 }
